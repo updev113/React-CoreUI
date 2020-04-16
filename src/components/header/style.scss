@@ -1,0 +1,142 @@
+
+
+.header-dropdown-menu {
+  height: auto;
+  right: 0;
+
+  .dropdown-item:hover {
+    
+  }
+}
+
+
+.app-header {
+  border-bottom: 1px solid #f6f4ff;
+}
+
+.app-header .navbar-nav .dropdown-menu:before {
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12) !important;
+  border: none !important;
+  position: absolute;
+  display: inline-block;
+  content: '';
+  right: 9px;
+  top: -10px;
+}
+
+.app-header .navbar-nav .dropdown-menu:after {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  right: 10px;
+  top: -10px;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  border-left: 5px solid transparent;
+}
+
+.admin-container .app-header .dropdown-item {
+  border-bottom: none;
+}
+
+.admin-container .app-header .dropdown-item:hover,
+.admin-container .app-header .dropdown-item:focus,
+.admin-container .app-header .dropdown-item:active {
+  color: #613BEA !important;
+  background-color: white;
+}
+
+
+.app-header {
+  .searchbar {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 20px;
+  }
+
+  .navbar-brand { 
+    width: 211px !important;
+    height: 100% !important;
+    justify-content: left !important;
+    margin-left: 10px;
+  
+    img {
+      width: 83px;
+      height: auto;
+    }
+  
+    @media (max-width: 991.98px) {
+      top: 4px !important;
+      border-right: none !important;
+      
+      img {
+        margin-left: 30px;
+      }
+    }
+  }
+  
+  .navbar-brand.border {
+    border-right: 1px solid #f6f4ff;
+  }
+}
+
+
+.user-name {
+  font-size: 18px !important; 
+  color: black !important;
+  margin-right: 5px;
+}
+
+.nav-icon {
+  font-size: 22px;
+  color: #A7A5B4;
+}
+
+
+.notification-row {
+  .title {
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;
+    margin-right: 15px;
+    text-overflow: ellipsis;
+  }
+
+  .timeago {
+    font-size: 11px;
+  }
+
+  .message {
+    white-space: pre-line;
+    font-size: 13px;
+  }
+}
+
+.searchbar {
+  position: relative;
+
+
+  .header-search-input {
+    height: 45px !important;
+    background-color: #F6F4FF !important;
+    border-radius: 3px !important;
+    border: none !important;
+    font-family: 'Poppins';
+    font-size: 16px !important;
+    padding-left: 45px;
+  }
+
+  .header-search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #A7A5B4;
+    opacity: 1; /* Firefox */
+  }
+
+  i {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    width: 15px;
+    height: 15px;
+    color: #A7A5B4;
+  }
+}

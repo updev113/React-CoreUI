@@ -1,0 +1,143 @@
+// global html styles
+
+@font-face {
+  font-family: Poppins;
+  src: url('fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+
+
+p, span, label, a, div, input, select, textarea, form {
+  font-family: Poppins;
+}
+
+h1, h2, h3, h4, h5, h6, th, button {
+  font-family: Poppins-SemiBold !important;
+}
+
+.nav-link {
+  border-radius: 0 !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.filter-panel {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+// form styles
+.form-control {
+  border-radius: 0 !important;
+  border-color: #ccc !important;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+  border-color: #f86c6b !important;
+}
+
+.input-group-text {
+  border-radius: 0 !important;
+}
+
+.btn-group {
+  .btn {
+    border-radius: 0 !important;
+  }
+}
+
+.is-invalid ~ .invalid-feedback {
+  display: block;
+}
+
+
+table tbody td p {
+  font-size: 12px !important;
+}
+
+.light .image-uploader .drag-drop-area {
+  &:hover {
+    background-color: #f6f4ff !important;
+  }
+}
+
+.image-uploader .drag-drop-area {
+  transition: background-color .2s ease;
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(97, 59, 234, 0.25);
+  }
+  &:hover {
+    background-color: #342f57 !important;
+  }
+}
+
+// card styles
+.card {
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14),
+    0px 3px 3px -2px rgba(0,0,0,0.12) !important;
+}
+
+.card-header {
+  background-color: #ffffff !important;
+  border-radius: 0 !important;
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+}
+
+.card-body {
+  border-radius: 0 !important;
+}
+
+.card-footer {
+  border-radius: 0 !important;
+}
+
+
+
+.tab-card {
+  background: #ffffff !important;
+}
+.tab-content {
+  border-radius: 0 !important;
+}
+
+
+
+
+
+// dropdown styles
+.dropdown-menu {
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14),
+    0px 3px 3px -2px rgba(0,0,0,0.12) !important;
+}
+
+
+@import "override/modal";
+@import "override/react-autosuggest";
+@import "override/react-bootstrap-daterangepicker";
+@import "override/react-bootstrap-table";
+@import "override/react-datepicker";
+@import "override/react-select";
+@import "override/react-toastify";
+@import "override/react-compound-slider";
+
+
+
+
+
+
